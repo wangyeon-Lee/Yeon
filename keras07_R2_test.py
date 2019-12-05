@@ -24,6 +24,7 @@ model.add(Dense(511))
 model.add(Dense(1111))
 model.add(Dense(311))
 model.add(Dense(510))
+model.add(Dense(100))
 model.add(Dense(1))
 
 
