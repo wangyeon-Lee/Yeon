@@ -48,10 +48,6 @@ dense2 = Dense(3)(dense1)
 dense3 = Dense(4)(dense2)
 middle1 = Dense(3)(dense3)
 
-
-from keras.layers.merge import concatenate
-
-
 output1 = Dense(7)(middle1)
 output1 = Dense(5)(output1)
 output1 = Dense(3)(output1)
